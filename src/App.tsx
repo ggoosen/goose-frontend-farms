@@ -1,4 +1,5 @@
 import React, { useEffect, Suspense, lazy } from 'react'
+import { QueryParamProvider } from 'use-query-params';
 import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import { ResetCSS } from '@pancakeswap-libs/uikit'
@@ -7,12 +8,14 @@ import { useFetchPublicData } from 'state/hooks'
 import GlobalStyle from './style/Global'
 import Menu from './components/Menu'
 import PageLoader from './components/PageLoader'
+
 import NftGlobalNotification from './views/Nft/components/NftGlobalNotification'
 
 // Route-based code splitting
 // Only pool is included in the main bundle because of it's the most visited page'
 const Home = lazy(() => import('./views/Home'))
 const Farms = lazy(() => import('./views/Farms'))
+const Referral = lazy(() => import('./views/Ref/Referral'))
 // const Lottery = lazy(() => import('./views/Lottery'))
 // const Pools = lazy(() => import('./views/Pools'))
 // const Ifos = lazy(() => import('./views/Ifos'))
@@ -37,6 +40,7 @@ const App: React.FC = () => {
 
   return (
     <Router>
+      <QueryParamProvider ReactRouterRoute={Route}>
       <ResetCSS />
       <GlobalStyle />
       <Menu>
@@ -51,6 +55,9 @@ const App: React.FC = () => {
             <Route path="/nests">
               <Farms tokenMode/>
             </Route>
+              <Route path="/referrals">
+                  <Referral />
+              </Route>
             {/* <Route path="/pools"> */}
             {/*  <Pools /> */}
             {/* </Route> */}
@@ -76,6 +83,7 @@ const App: React.FC = () => {
         </Suspense>
       </Menu>
       <NftGlobalNotification />
+      </QueryParamProvider>
     </Router>
   )
 }

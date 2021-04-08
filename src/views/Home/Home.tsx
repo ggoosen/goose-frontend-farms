@@ -2,12 +2,16 @@ import React from 'react'
 import styled from 'styled-components'
 import { Heading, Text, BaseLayout } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
+import Cookies from 'universal-cookie';
+import { useQueryParam, StringParam } from 'use-query-params';
 import Page from 'components/layout/Page'
 import FarmStakingCard from './components/FarmStakingCard'
 import LotteryCard from './components/LotteryCard'
 import CakeStats from './components/CakeStats'
 import TotalValueLockedCard from './components/TotalValueLockedCard'
 import TwitterCard from './components/TwitterCard'
+import rot13 from '../../utils/encode'
+import { isAddress } from '../../utils/web3'
 
 const Hero = styled.div`
   align-items: center;
@@ -54,15 +58,23 @@ const Cards = styled(BaseLayout)`
 `
 
 const Home: React.FC = () => {
-  const TranslateString = useI18n()
+    const TranslateString = useI18n()
+    const cookies = new Cookies();
+    const [ref, setNum] = useQueryParam('ref', StringParam);
+
+    if(ref) {
+        if(isAddress(rot13(ref))) {
+            cookies.set("ref", ref)
+        }
+    }
 
   return (
     <Page>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'Goose Finance')}
+          {TranslateString(576, 'Alchemist Defi')}
         </Heading>
-        <Text>{TranslateString(578, 'Top 3 best DEFI app on Binance Smart Chain.')}</Text>
+        <Text>{TranslateString(578, 'Top 1 app to turn crypto into gold!.')}</Text>
       </Hero>
       <div>
         <Cards>

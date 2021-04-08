@@ -75,7 +75,7 @@
     {
       "data": {
         "stringId": 304,
-        "text": "Total EGG burned since launch"
+        "text": "Total MIST burned since launch"
       }
     },
     {
@@ -123,13 +123,13 @@
     {
       "data": {
         "stringId": 320,
-        "text": "Stake LP tokens to earn EGG"
+        "text": "Stake LP tokens to earn MIST"
       }
     },
     {
       "data": {
         "stringId": 322,
-        "text": "Stake Egg, get SYRUP."
+        "text": "Stake Mist, get SYRUP."
       }
     },
     {
@@ -153,7 +153,7 @@
     {
       "data": {
         "stringId": 334,
-        "text": "Every time you stake and unstake EGG tokens, the contract will automatically harvest EGG rewards for you!"
+        "text": "Every time you stake and unstake MIST tokens, the contract will automatically harvest MIST rewards for you!"
       }
     },
     {
@@ -219,7 +219,7 @@
     {
       "data": {
         "stringId": 358,
-        "text": "Egg price"
+        "text": "Mist price"
       }
     },
     {
@@ -543,7 +543,7 @@
     {
       "data": {
         "stringId": 494,
-        "text": "Approve EGG"
+        "text": "Approve MIST"
       }
     },
     {
@@ -573,7 +573,7 @@
     {
       "data": {
         "stringId": 506,
-        "text": "Get EGG-BNB LP >"
+        "text": "Get MIST-BNB LP >"
       }
     },
     {
@@ -645,7 +645,7 @@
     {
       "data": {
         "stringId": 534,
-        "text": "Egg Stats"
+        "text": "Mist Stats"
       }
     },
     {
@@ -663,7 +663,7 @@
     {
       "data": {
         "stringId": 540,
-        "text": "New EGG\/block"
+        "text": "New MIST\/block"
       }
     },
     {
@@ -675,19 +675,19 @@
     {
       "data": {
         "stringId": 544,
-        "text": "EGG to Harvest"
+        "text": "MIST to Harvest"
       }
     },
     {
       "data": {
         "stringId": 546,
-        "text": "EGG in Wallet"
+        "text": "MIST in Wallet"
       }
     },
     {
       "data": {
         "stringId": 548,
-        "text": "Collecting EGG"
+        "text": "Collecting MIST"
       }
     },
     {
@@ -699,7 +699,7 @@
     {
       "data": {
         "stringId": 552,
-        "text": "EGG to Collect"
+        "text": "MIST to Collect"
       }
     },
     {
@@ -753,19 +753,19 @@
     {
       "data": {
         "stringId": 576,
-        "text": "Goose Finance"
+        "text": "Alchemist Defi"
       }
     },
     {
       "data": {
         "stringId": 578,
-        "text": "Top 3 best DEFI app on Binance Smart Chain."
+        "text": "Top 1 App to turn crypto into gold !"
       }
     },
     {
       "data": {
         "stringId": 580,
-        "text": "Stake EGG to earn new tokens."
+        "text": "Stake MIST to earn new tokens."
       }
     },
     {
@@ -783,7 +783,7 @@
     {
       "data": {
         "stringId": 586,
-        "text": "EGG to burn (USD)"
+        "text": "MIST to burn (USD)"
       }
     },
     {
@@ -795,7 +795,7 @@
     {
       "data": {
         "stringId": 590,
-        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest EGG rewards for you!"
+        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest MIST rewards for you!"
       }
     },
     {
@@ -813,13 +813,13 @@
     {
       "data": {
         "stringId": 596,
-        "text": "Buy EGG and BNB tokens"
+        "text": "Buy MIST and BNB tokens"
       }
     },
     {
       "data": {
         "stringId": 598,
-        "text": "Get EGG-BNB LP tokens by adding EGG and BNB liquidity"
+        "text": "Get MIST-BNB LP tokens by adding MIST and BNB liquidity"
       }
     },
     {
@@ -831,7 +831,7 @@
     {
       "data": {
         "stringId": 602,
-        "text": "While the sale is live, commit your EGG-LP tokens to buy the IFO tokens"
+        "text": "While the sale is live, commit your MIST-LP tokens to buy the IFO tokens"
       }
     },
     {
@@ -867,7 +867,7 @@
     {
       "data": {
         "stringId": 614,
-        "text": "Trade in for EGG, or keep for your collection!"
+        "text": "Trade in for MIST, or keep for your collection!"
       }
     },
     {
@@ -1209,7 +1209,7 @@
     {
       "data": {
         "stringId": 10000,
-        "text": "Deposit Fee will be used to buyback EGG"
+        "text": "Deposit Fee will be used to buyback MIST"
       }
     },
     {
@@ -1221,7 +1221,7 @@
     {
       "data": {
         "stringId": 10002,
-        "text": "Stake tokens to earn EGG"
+        "text": "Stake tokens to earn MIST"
       }
     },
     {
